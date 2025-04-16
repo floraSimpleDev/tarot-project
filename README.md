@@ -52,3 +52,63 @@ export default tseslint.config({
   },
 })
 ```
+
+## File structure example
+```
+src/
+├── api/
+├── store/
+├── hooks/
+├── config/
+├── assets/
+├── components/
+├── pages/
+├── sections/
+├── layouts/
+├── routes/
+├── styles/
+├── lib/
+├── types/
+├── constants/
+├── data/
+├── App.tsx
+├── main.tsx
+├── tarot/
+│   ├── cards.ts
+│   ├── logic.ts
+│   └── types.ts
+├── utils/
+└── index.html
+```
+
+## Landing page module structure
+```
+pages/
+└── Home.tsx             # Landing page
+
+sections/
+├── HeroSection.tsx
+├── AboutMe.tsx
+├── Services.tsx
+├── Testimonials.tsx
+├── FAQ.tsx
+├── Contact.tsx
+└── Pricing.tsx
+```
+
+## Card module structure
+```
+tarot/
+├── cards.ts
+├── logic.ts
+├── types.ts
+└── styles.css
+```
+
+## API module structure
+```
+api/
+├── index.ts             # API entry point
+├── auth.ts
+├── users.ts
+```
